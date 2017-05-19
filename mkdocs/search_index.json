@@ -2,22 +2,42 @@
     "docs": [
         {
             "location": "/", 
-            "text": "", 
+            "text": "TO-DO\n\n\nDesign Patterns\n\n\n\n\n Mercury\n\n\n Venus\n\n\n Earth (Orbit/Moon)\n\n\n Mars\n\n\n Siva\n\n\n\n\n\n\n Jupiter\n\n\n Saturn\n\n\n Uranus\n\n\n Neptune\n\n\n Comet Haley\n\n\n\n\nCode sample\n\n\n1\n2\n3\nclass\n \nHelloWorld\n \n{\n\n\n\n}\n\n\n\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\nSELECT\n\n\nEmployees\n.\nEmployeeID\n,\n\n\nEmployees\n.\nName\n,\n\n\nEmployees\n.\nSalary\n,\n\n\nManager\n.\nName\n \nAS\n \nManager\n\n\nFROM\n\n\nEmployees\n\n\nLEFT\n \nJOIN\n\n\nEmployees\n \nAS\n \nManager\n\n\nON\n\n\nEmployees\n.\nManagerID\n \n=\n \nManager\n.\nEmployeeID\n\n\nWHERE\n\n\nEmployees\n.\nEmployeeID\n \n=\n \n087652\n;\n\n\n\n\n\n\n\nAdmonition Sample\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nSummary\n\n\nthis is some text\n\n\n\n\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nImportant\n\n\nthis is some text\n\n\n\n\n\n\nHint\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nCheck\n\n\nthis is some text\n\n\n\n\n\n\nDone\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nCaution\n\n\nthis is some text\n\n\n\n\n\n\nAttention\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nFail\n\n\nthis is some text\n\n\n\n\n\n\nMissing\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nError\n\n\nthis is some text\n\n\n\n\n\n\nBug\n\n\nthis is some text\n\n\n\n\n\n\nQuote\n\n\nthis is some text\n\n\n\n\n\n\nCite\n\n\nthis is some text", 
             "title": "Home"
         }, 
         {
+            "location": "/#to-do", 
+            "text": "", 
+            "title": "TO-DO"
+        }, 
+        {
+            "location": "/#design-patterns", 
+            "text": "Mercury   Venus   Earth (Orbit/Moon)   Mars   Siva     Jupiter   Saturn   Uranus   Neptune   Comet Haley", 
+            "title": "Design Patterns"
+        }, 
+        {
+            "location": "/#code-sample", 
+            "text": "1\n2\n3 class   HelloWorld   {  }     1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13 SELECT  Employees . EmployeeID ,  Employees . Name ,  Employees . Salary ,  Manager . Name   AS   Manager  FROM  Employees  LEFT   JOIN  Employees   AS   Manager  ON  Employees . ManagerID   =   Manager . EmployeeID  WHERE  Employees . EmployeeID   =   087652 ;", 
+            "title": "Code sample"
+        }, 
+        {
+            "location": "/#admonition-sample", 
+            "text": "Siva  this is some text    Summary  this is some text    this is some text    Siva  this is some text    Important  this is some text    Hint  this is some text    Siva  this is some text    Check  this is some text    Done  this is some text    Siva  this is some text    Caution  this is some text    Attention  this is some text    Siva  this is some text    Fail  this is some text    Missing  this is some text    Siva  this is some text    Error  this is some text    Bug  this is some text    Quote  this is some text    Cite  this is some text", 
+            "title": "Admonition Sample"
+        }, 
+        {
             "location": "/bookmarks/online-tools/", 
-            "text": "Web Designing\n\n\nLayoutIt\n\n\nLayoutIt! - Interface Builder for Bootstrap\n - Website prototype generator using Bootstrap\n\n\n\nBootsnipp\n\n\nBootsnipp\n is an element gallery for web designers and web developers using Bootstrap.\n\n\n\nURL Encoder", 
+            "text": "Web Designing\n\n\nFollowing are the list online tools used for prototyping websites and reusing readily available bootstrap based components\n\n\nLayoutIt\n\n\nLayoutIt! - Interface Builder for Bootstrap\n - Website prototype generator using Bootstrap.\n\n\n\n\nBootsnipp\n\n\nBootsnipp\n is an element gallery for web designers and web developers using Bootstrap.\n\n\n\n\nFreeFormatter\n\n\nFreeFormatter\n hosts a suite of online tools which includes several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.", 
             "title": "Online Tools"
         }, 
         {
             "location": "/bookmarks/online-tools/#web-designing", 
-            "text": "", 
+            "text": "Following are the list online tools used for prototyping websites and reusing readily available bootstrap based components", 
             "title": "Web Designing"
         }, 
         {
             "location": "/bookmarks/online-tools/#layoutit", 
-            "text": "LayoutIt! - Interface Builder for Bootstrap  - Website prototype generator using Bootstrap", 
+            "text": "LayoutIt! - Interface Builder for Bootstrap  - Website prototype generator using Bootstrap.", 
             "title": "LayoutIt"
         }, 
         {
@@ -26,17 +46,22 @@
             "title": "Bootsnipp"
         }, 
         {
-            "location": "/bookmarks/online-tools/#url-encoder", 
-            "text": "", 
-            "title": "URL Encoder"
+            "location": "/bookmarks/online-tools/#freeformatter", 
+            "text": "FreeFormatter  hosts a suite of online tools which includes several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.", 
+            "title": "FreeFormatter"
         }, 
         {
-            "location": "/design-patterns/strategy-pattern/", 
+            "location": "/basics/data-structures/linked-list/", 
+            "text": "", 
+            "title": "Linked List"
+        }, 
+        {
+            "location": "/basics/design-patterns/strategy-pattern/", 
             "text": "", 
             "title": "Strategy Pattern"
         }, 
         {
-            "location": "/design-patterns/observer-pattern/", 
+            "location": "/basics/design-patterns/observer-pattern/", 
             "text": "", 
             "title": "Observer Pattern"
         }, 
