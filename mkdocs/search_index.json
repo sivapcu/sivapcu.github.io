@@ -1,0 +1,109 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/bookmarks/online-tools/", 
+            "text": "Web Designing\n\n\nLayoutIt\n\n\nLayoutIt! - Interface Builder for Bootstrap\n - Website prototype generator using Bootstrap\n\n\n\nBootsnipp\n\n\nBootsnipp\n is an element gallery for web designers and web developers using Bootstrap.\n\n\n\nURL Encoder", 
+            "title": "Online Tools"
+        }, 
+        {
+            "location": "/bookmarks/online-tools/#web-designing", 
+            "text": "", 
+            "title": "Web Designing"
+        }, 
+        {
+            "location": "/bookmarks/online-tools/#layoutit", 
+            "text": "LayoutIt! - Interface Builder for Bootstrap  - Website prototype generator using Bootstrap", 
+            "title": "LayoutIt"
+        }, 
+        {
+            "location": "/bookmarks/online-tools/#bootsnipp", 
+            "text": "Bootsnipp  is an element gallery for web designers and web developers using Bootstrap.", 
+            "title": "Bootsnipp"
+        }, 
+        {
+            "location": "/bookmarks/online-tools/#url-encoder", 
+            "text": "", 
+            "title": "URL Encoder"
+        }, 
+        {
+            "location": "/design-patterns/strategy-pattern/", 
+            "text": "", 
+            "title": "Strategy Pattern"
+        }, 
+        {
+            "location": "/design-patterns/observer-pattern/", 
+            "text": "", 
+            "title": "Observer Pattern"
+        }, 
+        {
+            "location": "/about-me/profile/", 
+            "text": "Siva Sankar Rajendran\n\n\n\n\nI am\n\n\nI studied at\n\n\nI participated in\n\n\nI won\n\n\nI like to\n\n\nI love to\n\n\nI die for\n\n\nI dislike\n\n\nI hate\n\n\nI will kill\n\n\nI can be reached at", 
+            "title": "Profile"
+        }, 
+        {
+            "location": "/about-me/profile/#siva-sankar-rajendran", 
+            "text": "", 
+            "title": "Siva Sankar Rajendran"
+        }, 
+        {
+            "location": "/about-me/profile/#i-am", 
+            "text": "", 
+            "title": "I am"
+        }, 
+        {
+            "location": "/about-me/profile/#i-studied-at", 
+            "text": "", 
+            "title": "I studied at"
+        }, 
+        {
+            "location": "/about-me/profile/#i-participated-in", 
+            "text": "", 
+            "title": "I participated in"
+        }, 
+        {
+            "location": "/about-me/profile/#i-won", 
+            "text": "", 
+            "title": "I won"
+        }, 
+        {
+            "location": "/about-me/profile/#i-like-to", 
+            "text": "", 
+            "title": "I like to"
+        }, 
+        {
+            "location": "/about-me/profile/#i-love-to", 
+            "text": "", 
+            "title": "I love to"
+        }, 
+        {
+            "location": "/about-me/profile/#i-die-for", 
+            "text": "", 
+            "title": "I die for"
+        }, 
+        {
+            "location": "/about-me/profile/#i-dislike", 
+            "text": "", 
+            "title": "I dislike"
+        }, 
+        {
+            "location": "/about-me/profile/#i-hate", 
+            "text": "", 
+            "title": "I hate"
+        }, 
+        {
+            "location": "/about-me/profile/#i-will-kill", 
+            "text": "", 
+            "title": "I will kill"
+        }, 
+        {
+            "location": "/about-me/profile/#i-can-be-reached-at", 
+            "text": "", 
+            "title": "I can be reached at"
+        }
+    ]
+}
