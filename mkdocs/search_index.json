@@ -2,18 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "TO-DO\n\n\nDesign Patterns\n\n\n\n\n Mercury\n\n\n Venus\n\n\n Earth (Orbit/Moon)\n\n\n Mars\n\n\n Siva\n\n\n\n\n\n\n Jupiter\n\n\n Saturn\n\n\n Uranus\n\n\n Neptune\n\n\n Comet Haley\n\n\n\n\nCode sample\n\n\n1\n2\n3\nclass\n \nHelloWorld\n \n{\n\n\n\n}\n\n\n\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\nSELECT\n\n\nEmployees\n.\nEmployeeID\n,\n\n\nEmployees\n.\nName\n,\n\n\nEmployees\n.\nSalary\n,\n\n\nManager\n.\nName\n \nAS\n \nManager\n\n\nFROM\n\n\nEmployees\n\n\nLEFT\n \nJOIN\n\n\nEmployees\n \nAS\n \nManager\n\n\nON\n\n\nEmployees\n.\nManagerID\n \n=\n \nManager\n.\nEmployeeID\n\n\nWHERE\n\n\nEmployees\n.\nEmployeeID\n \n=\n \n087652\n;\n\n\n\n\n\n\n\nAdmonition Sample\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nSummary\n\n\nthis is some text\n\n\n\n\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nImportant\n\n\nthis is some text\n\n\n\n\n\n\nHint\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nCheck\n\n\nthis is some text\n\n\n\n\n\n\nDone\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nCaution\n\n\nthis is some text\n\n\n\n\n\n\nAttention\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nFail\n\n\nthis is some text\n\n\n\n\n\n\nMissing\n\n\nthis is some text\n\n\n\n\n\n\nSiva\n\n\nthis is some text\n\n\n\n\n\n\nError\n\n\nthis is some text\n\n\n\n\n\n\nBug\n\n\nthis is some text\n\n\n\n\n\n\nQuote\n\n\nthis is some text\n\n\n\n\n\n\nCite\n\n\nthis is some text", 
+            "text": "Mkdocs Notes for quick reference\n\n\nCode sample\n\n\n1\n2\n3\nclass\n \nHelloWorld\n \n{\n\n\n\n}\n\n\n\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\nSELECT\n\n\nEmployees\n.\nEmployeeID\n,\n\n\nEmployees\n.\nName\n,\n\n\nEmployees\n.\nSalary\n,\n\n\nManager\n.\nName\n \nAS\n \nManager\n\n\nFROM\n\n\nEmployees\n\n\nLEFT\n \nJOIN\n\n\nEmployees\n \nAS\n \nManager\n\n\nON\n\n\nEmployees\n.\nManagerID\n \n=\n \nManager\n.\nEmployeeID\n\n\nWHERE\n\n\nEmployees\n.\nEmployeeID\n \n=\n \n087652\n;\n\n\n\n\n\n\n\nAdmonition Sample\n\n\n\n\nTitle\n\n\nNote with Title but without quotes\n\n\n\n\n\n\nAdmonition\n\n\n\n\nAnother Admonition inside\n\n\nNote with Title but without quotes\n\n\n\n\n\n\n\n\nTitle can be customised\n\n\nNote with Title. Title can be customized for any type of Admonition\n\n\n\n\n\n\nSummary\n\n\nSummary afasdf afasdf\n\n\n\n\n\n\nTldr\n\n\nthis is some text\n\n\n\n\n\n\nTip\n\n\nthis is some text\n\n\n\n\n\n\nImportant\n\n\nthis is some text\n\n\n\n\n\n\nHint\n\n\nthis is some text\n\n\n\n\n\n\nSuccess\n\n\nthis is some text\n\n\n\n\n\n\nCheck\n\n\nthis is some text\n\n\n\n\n\n\nDone\n\n\nthis is some text\n\n\n\n\n\n\nWarning\n\n\nthis is some text\n\n\n\n\n\n\nCaution\n\n\nthis is some text\n\n\n\n\n\n\nAttention\n\n\nthis is some text\n\n\n\n\n\n\nFailure\n\n\nthis is some text\n\n\n\n\n\n\nFail\n\n\nthis is some text\n\n\n\n\n\n\nMissing\n\n\nthis is some text\n\n\n\n\n\n\nDanger\n\n\nthis is some text\n\n\n\n\n\n\nError\n\n\nthis is some text\n\n\n\n\n\n\nBug\n\n\nthis is some text\n\n\n\n\n\n\nQuote\n\n\nthis is some text\n\n\n\n\n\n\nCite\n\n\nthis is some text\n\n\n\n\nSample To-DO list\n\n\n\n\n one\n\n\n two\n\n\n three\n\n\n four\n\n\n four - a\n\n\n four - b\n\n\n\n\n\n\n Jupiter", 
             "title": "Home"
         }, 
         {
-            "location": "/#to-do", 
+            "location": "/#mkdocs-notes-for-quick-reference", 
             "text": "", 
-            "title": "TO-DO"
-        }, 
-        {
-            "location": "/#design-patterns", 
-            "text": "Mercury   Venus   Earth (Orbit/Moon)   Mars   Siva     Jupiter   Saturn   Uranus   Neptune   Comet Haley", 
-            "title": "Design Patterns"
+            "title": "Mkdocs Notes for quick reference"
         }, 
         {
             "location": "/#code-sample", 
@@ -22,12 +17,32 @@
         }, 
         {
             "location": "/#admonition-sample", 
-            "text": "Siva  this is some text    Summary  this is some text    this is some text    Siva  this is some text    Important  this is some text    Hint  this is some text    Siva  this is some text    Check  this is some text    Done  this is some text    Siva  this is some text    Caution  this is some text    Attention  this is some text    Siva  this is some text    Fail  this is some text    Missing  this is some text    Siva  this is some text    Error  this is some text    Bug  this is some text    Quote  this is some text    Cite  this is some text", 
+            "text": "Title  Note with Title but without quotes    Admonition   Another Admonition inside  Note with Title but without quotes     Title can be customised  Note with Title. Title can be customized for any type of Admonition    Summary  Summary afasdf afasdf    Tldr  this is some text    Tip  this is some text    Important  this is some text    Hint  this is some text    Success  this is some text    Check  this is some text    Done  this is some text    Warning  this is some text    Caution  this is some text    Attention  this is some text    Failure  this is some text    Fail  this is some text    Missing  this is some text    Danger  this is some text    Error  this is some text    Bug  this is some text    Quote  this is some text    Cite  this is some text", 
             "title": "Admonition Sample"
         }, 
         {
+            "location": "/#sample-to-do-list", 
+            "text": "one   two   three   four   four - a   four - b     Jupiter", 
+            "title": "Sample To-DO list"
+        }, 
+        {
+            "location": "/notes/data-structures/linked-list/", 
+            "text": "", 
+            "title": "Linked List"
+        }, 
+        {
+            "location": "/notes/design-patterns/strategy-pattern/", 
+            "text": "", 
+            "title": "Strategy Pattern"
+        }, 
+        {
+            "location": "/notes/design-patterns/observer-pattern/", 
+            "text": "", 
+            "title": "Observer Pattern"
+        }, 
+        {
             "location": "/bookmarks/online-tools/", 
-            "text": "Web Designing\n\n\nFollowing are the list online tools used for prototyping websites and reusing readily available bootstrap based components\n\n\nLayoutIt\n\n\nLayoutIt! - Interface Builder for Bootstrap\n - Website prototype generator using Bootstrap.\n\n\n\n\nBootsnipp\n\n\nBootsnipp\n is an element gallery for web designers and web developers using Bootstrap.\n\n\n\n\nFreeFormatter\n\n\nFreeFormatter\n hosts a suite of online tools which includes several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.", 
+            "text": "Web Designing\n\n\nFollowing are the list online tools used for prototyping websites and reusing readily available bootstrap based components\n\n\nLayoutIt\n\n\nLayoutIt! - Interface Builder for Bootstrap\n - Website prototype generator using Bootstrap.\n\n\n\n\nBootsnipp\n\n\nBootsnipp\n is an element gallery for web designers and web developers using Bootstrap.\n\n\n\n\nFreeFormatter\n\n\nFreeFormatter\n hosts a suite of online tools which includes several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.\n\n\n\n\nUML Designing\n\n\nWebSequenceDiagrams\n\n\nWeb Sequence Diagrams\n is an online tool to easily create Sequence diagrams using plain english.", 
             "title": "Online Tools"
         }, 
         {
@@ -51,84 +66,14 @@
             "title": "FreeFormatter"
         }, 
         {
-            "location": "/basics/data-structures/linked-list/", 
+            "location": "/bookmarks/online-tools/#uml-designing", 
             "text": "", 
-            "title": "Linked List"
+            "title": "UML Designing"
         }, 
         {
-            "location": "/basics/design-patterns/strategy-pattern/", 
-            "text": "", 
-            "title": "Strategy Pattern"
-        }, 
-        {
-            "location": "/basics/design-patterns/observer-pattern/", 
-            "text": "", 
-            "title": "Observer Pattern"
-        }, 
-        {
-            "location": "/about-me/profile/", 
-            "text": "Siva Sankar Rajendran\n\n\n\n\nI am\n\n\nI studied at\n\n\nI participated in\n\n\nI won\n\n\nI like to\n\n\nI love to\n\n\nI die for\n\n\nI dislike\n\n\nI hate\n\n\nI will kill\n\n\nI can be reached at", 
-            "title": "Profile"
-        }, 
-        {
-            "location": "/about-me/profile/#siva-sankar-rajendran", 
-            "text": "", 
-            "title": "Siva Sankar Rajendran"
-        }, 
-        {
-            "location": "/about-me/profile/#i-am", 
-            "text": "", 
-            "title": "I am"
-        }, 
-        {
-            "location": "/about-me/profile/#i-studied-at", 
-            "text": "", 
-            "title": "I studied at"
-        }, 
-        {
-            "location": "/about-me/profile/#i-participated-in", 
-            "text": "", 
-            "title": "I participated in"
-        }, 
-        {
-            "location": "/about-me/profile/#i-won", 
-            "text": "", 
-            "title": "I won"
-        }, 
-        {
-            "location": "/about-me/profile/#i-like-to", 
-            "text": "", 
-            "title": "I like to"
-        }, 
-        {
-            "location": "/about-me/profile/#i-love-to", 
-            "text": "", 
-            "title": "I love to"
-        }, 
-        {
-            "location": "/about-me/profile/#i-die-for", 
-            "text": "", 
-            "title": "I die for"
-        }, 
-        {
-            "location": "/about-me/profile/#i-dislike", 
-            "text": "", 
-            "title": "I dislike"
-        }, 
-        {
-            "location": "/about-me/profile/#i-hate", 
-            "text": "", 
-            "title": "I hate"
-        }, 
-        {
-            "location": "/about-me/profile/#i-will-kill", 
-            "text": "", 
-            "title": "I will kill"
-        }, 
-        {
-            "location": "/about-me/profile/#i-can-be-reached-at", 
-            "text": "", 
-            "title": "I can be reached at"
+            "location": "/bookmarks/online-tools/#websequencediagrams", 
+            "text": "Web Sequence Diagrams  is an online tool to easily create Sequence diagrams using plain english.", 
+            "title": "WebSequenceDiagrams"
         }
     ]
 }
