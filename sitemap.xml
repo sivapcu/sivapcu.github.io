@@ -4,12 +4,18 @@
     
     <url>
      <loc>http://sivapcu.github.io/</loc>
-     <lastmod>2017-05-21</lastmod>
+     <lastmod>2017-05-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
+    <url>
+     <loc>http://sivapcu.github.io</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
         
     <url>
      <loc>http://sivapcu.github.io</loc>
@@ -29,7 +35,7 @@
         
     <url>
      <loc>http://sivapcu.github.io/bookmarks/online-tools/</loc>
-     <lastmod>2017-05-21</lastmod>
+     <lastmod>2017-05-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

@@ -9,28 +9,28 @@
         <meta name="description" content="My Online Identity">
       
       
-        <link rel="canonical" href="http://sivapcu.github.io/notes/design-patterns/observer-pattern/">
+        <link rel="canonical" href="http://sivapcu.github.io/notes/algorithms/sorting/bubble-sort/">
       
       
         <meta name="author" content="sivapcu">
       
       
-        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
       
       <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.6.3">
     
     
       
-        <title>Observer Pattern - Siva Sankar Rajendran</title>
+        <title>Bubble Sort - Siva Sankar Rajendran</title>
       
     
     
-      <script src="../../../assets/javascripts/modernizr-56ade86843.js"></script>
+      <script src="../../../../assets/javascripts/modernizr-56ade86843.js"></script>
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/application-e2807e330f.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application-e2807e330f.css">
       
-        <link rel="stylesheet" href="../../../assets/stylesheets/application-f78e5cb881.palette.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/application-f78e5cb881.palette.css">
       
     
     
@@ -68,7 +68,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         
           <a href="http://sivapcu.github.io" title="Siva Sankar Rajendran" class="md-logo md-header-nav__button">
-            <img src="../../../img/sivapcu.png" width="24" height="24">
+            <img src="../../../../img/sivapcu.png" width="24" height="24">
           </a>
         
       </div>
@@ -81,15 +81,15 @@
             
               
                 <span class="md-header-nav__parent">
-                  Notes
+                  Algorithms
                 </span>
               
                 <span class="md-header-nav__parent">
-                  Design Patterns
+                  Sorting
                 </span>
               
             
-            Observer Pattern
+            Bubble Sort
           
         </span>
       </div>
@@ -142,7 +142,7 @@
   <label class="md-nav__title md-nav__title--site" for="drawer">
     
       <i class="md-logo md-nav__button">
-        <img src="../../../img/sivapcu.png">
+        <img src="../../../../img/sivapcu.png">
       </i>
     
     Siva Sankar Rajendran
@@ -156,7 +156,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../.." title="Home" class="md-nav__link">
+    <a href="../../../.." title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -208,7 +208,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../data-structures/boundary-conditions/" title="Boundary Conditions" class="md-nav__link">
+    <a href="../../../data-structures/boundary-conditions/" title="Boundary Conditions" class="md-nav__link">
       Boundary Conditions
     </a>
   </li>
@@ -220,69 +220,9 @@
 
 
   <li class="md-nav__item">
-    <a href="../../data-structures/linked-list/" title="Linked List" class="md-nav__link">
+    <a href="../../../data-structures/linked-list/" title="Linked List" class="md-nav__link">
       Linked List
     </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
-    
-    <label class="md-nav__link" for="nav-2-2">
-      Algorithms
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-2">
-        Algorithms
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-1" type="checkbox" id="nav-2-2-1">
-    
-    <label class="md-nav__link" for="nav-2-2-1">
-      Sorting
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
-      <label class="md-nav__title" for="nav-2-2-1">
-        Sorting
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../algorithms/sorting/bubble-sort/" title="Bubble Sort" class="md-nav__link">
-      Bubble Sort
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
         
@@ -300,7 +240,76 @@
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Algorithms
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Algorithms
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-1" type="checkbox" id="nav-2-2-1" checked>
+    
+    <label class="md-nav__link" for="nav-2-2-1">
+      Sorting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-1">
+        Sorting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+    <a href="./" title="Bubble Sort" class="md-nav__link md-nav__link--active">
+      Bubble Sort
+    </a>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
     
     <label class="md-nav__link" for="nav-2-3">
       Design Patterns
@@ -318,7 +327,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../strategy-pattern/" title="Strategy Pattern" class="md-nav__link">
+    <a href="../../../design-patterns/strategy-pattern/" title="Strategy Pattern" class="md-nav__link">
       Strategy Pattern
     </a>
   </li>
@@ -328,18 +337,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-    
-    <a href="./" title="Observer Pattern" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../../design-patterns/observer-pattern/" title="Observer Pattern" class="md-nav__link">
       Observer Pattern
     </a>
-    
   </li>
 
         
@@ -378,7 +380,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../bookmarks/online-tools/" title="Online Tools" class="md-nav__link">
+    <a href="../../../../bookmarks/online-tools/" title="Online Tools" class="md-nav__link">
       Online Tools
     </a>
   </li>
@@ -415,7 +417,7 @@
               
                 
                 
-                  <h1>Observer Pattern</h1>
+                  <h1>Bubble Sort</h1>
                 
                 
                 
@@ -428,9 +430,9 @@
                   <div id="disqus_thread"></div>
 <script>
   var disqus_config = function () {
-    this.page.url = "http://sivapcu.github.io/notes/design-patterns/observer-pattern/";
+    this.page.url = "http://sivapcu.github.io/notes/algorithms/sorting/bubble-sort/";
     this.page.identifier =
-      "/notes/design-patterns/observer-pattern/";
+      "/notes/algorithms/sorting/bubble-sort/";
   };
   (function() {
     var d = document, s = d.createElement("script");
@@ -452,7 +454,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../strategy-pattern/" title="Strategy Pattern" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../../data-structures/linked-list/" title="Linked List" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -461,19 +463,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Strategy Pattern
+                Linked List
               </span>
             </div>
           </a>
         
         
-          <a href="../../../bookmarks/online-tools/" title="Online Tools" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../../design-patterns/strategy-pattern/" title="Strategy Pattern" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Online Tools
+                Strategy Pattern
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -515,8 +517,8 @@
       
     </div>
     
-      <script src="../../../assets/javascripts/application-6b4ff16fa7.js"></script>
-      <script>app.initialize({url:{base:"../../.."}})</script>
+      <script src="../../../../assets/javascripts/application-6b4ff16fa7.js"></script>
+      <script>app.initialize({url:{base:"../../../.."}})</script>
       
     
     
