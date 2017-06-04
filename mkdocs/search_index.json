@@ -2,47 +2,17 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Mkdocs Notes for quick reference\n\n\nCode sample\n\n\n1\n2\n3\nclass\n \nHelloWorld\n \n{\n\n\n\n}\n\n\n\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\nSELECT\n\n\nEmployees\n.\nEmployeeID\n,\n\n\nEmployees\n.\nName\n,\n\n\nEmployees\n.\nSalary\n,\n\n\nManager\n.\nName\n \nAS\n \nManager\n\n\nFROM\n\n\nEmployees\n\n\nLEFT\n \nJOIN\n\n\nEmployees\n \nAS\n \nManager\n\n\nON\n\n\nEmployees\n.\nManagerID\n \n=\n \nManager\n.\nEmployeeID\n\n\nWHERE\n\n\nEmployees\n.\nEmployeeID\n \n=\n \n087652\n;\n\n\n\n\n\n\n\nAdding an image\n\n\n\n\nAdding an image With defined Size\n\n\n\n\nAdding an image With defined Size and Centered\n\n\n\n\nAdmonition Sample\n\n\n\n\nTitle\n\n\nNote with Title but without quotes\n\n\n\n\n\n\nAdmonition\n\n\n\n\nAnother Admonition inside\n\n\nNote with Title but without quotes\n\n\n\n\n\n\n\n\nTitle can be customised\n\n\nNote with Title. Title can be customized for any type of Admonition\n\n\n\n\n\n\nSummary\n\n\nSummary afasdf afasdf\n\n\n\n\n\n\nTldr\n\n\nthis is some text\n\n\n\n\n\n\nTip\n\n\nthis is some text\n\n\n\n\n\n\nImportant\n\n\nthis is some text\n\n\n\n\n\n\nHint\n\n\nthis is some text\n\n\n\n\n\n\nSuccess\n\n\nthis is some text\n\n\n\n\n\n\nCheck\n\n\nthis is some text\n\n\n\n\n\n\nDone\n\n\nthis is some text\n\n\n\n\n\n\nWarning\n\n\nthis is some text\n\n\n\n\n\n\nCaution\n\n\nthis is some text\n\n\n\n\n\n\nAttention\n\n\nthis is some text\n\n\n\n\n\n\nFailure\n\n\nthis is some text\n\n\n\n\n\n\nFail\n\n\nthis is some text\n\n\n\n\n\n\nMissing\n\n\nthis is some text\n\n\n\n\n\n\nDanger\n\n\nthis is some text\n\n\n\n\n\n\nError\n\n\nthis is some text\n\n\n\n\n\n\nBug\n\n\nthis is some text\n\n\n\n\n\n\nQuote\n\n\nthis is some text\n\n\n\n\n\n\nCite\n\n\nthis is some text\n\n\n\n\nSample To-DO list\n\n\n\n\n one\n\n\n two\n\n\n three\n\n\n four\n\n\n four - a\n\n\n four - b\n\n\n\n\n\n\n Jupiter", 
+            "text": "Siva Sankar Rajendran", 
             "title": "Home"
         }, 
         {
-            "location": "/#mkdocs-notes-for-quick-reference", 
+            "location": "/#siva-sankar-rajendran", 
             "text": "", 
-            "title": "Mkdocs Notes for quick reference"
-        }, 
-        {
-            "location": "/#code-sample", 
-            "text": "1\n2\n3 class   HelloWorld   {  }     1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13 SELECT  Employees . EmployeeID ,  Employees . Name ,  Employees . Salary ,  Manager . Name   AS   Manager  FROM  Employees  LEFT   JOIN  Employees   AS   Manager  ON  Employees . ManagerID   =   Manager . EmployeeID  WHERE  Employees . EmployeeID   =   087652 ;", 
-            "title": "Code sample"
-        }, 
-        {
-            "location": "/#adding-an-image", 
-            "text": "", 
-            "title": "Adding an image"
-        }, 
-        {
-            "location": "/#adding-an-image-with-defined-size", 
-            "text": "", 
-            "title": "Adding an image With defined Size"
-        }, 
-        {
-            "location": "/#adding-an-image-with-defined-size-and-centered", 
-            "text": "", 
-            "title": "Adding an image With defined Size and Centered"
-        }, 
-        {
-            "location": "/#admonition-sample", 
-            "text": "Title  Note with Title but without quotes    Admonition   Another Admonition inside  Note with Title but without quotes     Title can be customised  Note with Title. Title can be customized for any type of Admonition    Summary  Summary afasdf afasdf    Tldr  this is some text    Tip  this is some text    Important  this is some text    Hint  this is some text    Success  this is some text    Check  this is some text    Done  this is some text    Warning  this is some text    Caution  this is some text    Attention  this is some text    Failure  this is some text    Fail  this is some text    Missing  this is some text    Danger  this is some text    Error  this is some text    Bug  this is some text    Quote  this is some text    Cite  this is some text", 
-            "title": "Admonition Sample"
-        }, 
-        {
-            "location": "/#sample-to-do-list", 
-            "text": "one   two   three   four   four - a   four - b     Jupiter", 
-            "title": "Sample To-DO list"
+            "title": "Siva Sankar Rajendran"
         }, 
         {
             "location": "/blog/online-tools/", 
-            "text": "Few tools we rarely use and we dont want to install an application for one time use. Also sometimes we may be using a restricted machine where we cannot install softwares(of course i am telling about offices). At such times, I find the following tools handy. \n\n\nPlease leave a comment, if I have missed out your favourite online tool.\n\n\nWeb Designing Tools\n\n\nFollowing are the list online tools used for prototyping websites and reusing readily available bootstrap based components\n\n\nLayoutIt\n\n\nLayoutIt! - Interface Builder for Bootstrap\n - Website prototype generator using Bootstrap.\n\n\n\n\nBootsnipp\n\n\nBootsnipp\n is an element gallery for web designers and web developers using Bootstrap.\n\n\n\n\nUML Designing Tools\n\n\nGliffy\n\n\nGliffy Online\n or \nGliffy Chrome App\n\n\n\n\n\n\nDraw.io\n\n\ndraw.io\n \n\n\n\n\nWeb Sequence Diagrams\n\n\nWeb Sequence Diagrams\n is an online tool to easily create Sequence diagrams using plain english.\n\n\n\n\nMiscellaneous\n\n\nFreeFormatter\n\n\nFreeFormatter\n hosts a suite of online tools which includes several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.", 
+            "text": "Few tools we rarely use and we dont want to install an application for one time use. Also sometimes we may be using a restricted machine where we cannot install softwares(of course i am telling about offices). At such times, I find the following tools handy. \n\n\nPlease leave a comment, if I have missed out your favourite online tool.\n\n\nWeb Designing Tools\n\n\nFollowing are the list online tools used for prototyping websites and reusing readily available bootstrap based components\n\n\nLayoutIt\n\n\nLayoutIt! - Interface Builder for Bootstrap\n - Website prototype generator using Bootstrap.\n\n\n\n\nBootsnipp\n\n\nBootsnipp\n is an element gallery for web designers and web developers using Bootstrap.\n\n\n\n\nUML Designing Tools\n\n\nGliffy\n\n\nGliffy Online\n or \nGliffy Chrome App\n\n\n\n\n\n\nDraw.io\n\n\ndraw.io\n \n\n\n\n\nWeb Sequence Diagrams\n\n\nWeb Sequence Diagrams\n is an online tool to easily create Sequence diagrams using plain english.\n\n\n\n\nMiscellaneous\n\n\nFull Screen Capture\n\n\nFull Screen Capture\n is a chrome extension to save the whole web page as a single image. Its just awesome. You should try it.\n\n\n\n\nFreeFormatter\n\n\nFreeFormatter\n hosts a suite of online tools which includes several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.", 
             "title": "Online Tools"
         }, 
         {
@@ -86,6 +56,11 @@
             "title": "Miscellaneous"
         }, 
         {
+            "location": "/blog/online-tools/#full-screen-capture", 
+            "text": "Full Screen Capture  is a chrome extension to save the whole web page as a single image. Its just awesome. You should try it.", 
+            "title": "Full Screen Capture"
+        }, 
+        {
             "location": "/blog/online-tools/#freeformatter", 
             "text": "FreeFormatter  hosts a suite of online tools which includes several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.", 
             "title": "FreeFormatter"
@@ -116,6 +91,46 @@
             "title": "Proxy Settings"
         }, 
         {
+            "location": "/blog/mkdocs-notes/", 
+            "text": "Mkdocs Notes for quick reference\n\n\nCode sample\n\n\n1\n2\n3\nclass\n \nHelloWorld\n \n{\n\n\n\n}\n\n\n\n\n\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\nSELECT\n\n\nEmployees\n.\nEmployeeID\n,\n\n\nEmployees\n.\nName\n,\n\n\nEmployees\n.\nSalary\n,\n\n\nManager\n.\nName\n \nAS\n \nManager\n\n\nFROM\n\n\nEmployees\n\n\nLEFT\n \nJOIN\n\n\nEmployees\n \nAS\n \nManager\n\n\nON\n\n\nEmployees\n.\nManagerID\n \n=\n \nManager\n.\nEmployeeID\n\n\nWHERE\n\n\nEmployees\n.\nEmployeeID\n \n=\n \n087652\n;\n\n\n\n\n\n\n\nAdding an image\n\n\n\n\nAdding an image With defined Size\n\n\n\n\nAdding an image With defined Size and Centered\n\n\n\n\nAdmonition Sample\n\n\n\n\nTitle\n\n\nNote with Title but without quotes\n\n\n\n\n\n\nAdmonition\n\n\n\n\nAnother Admonition inside\n\n\nNote with Title but without quotes\n\n\n\n\n\n\n\n\nTitle can be customised\n\n\nNote with Title. Title can be customized for any type of Admonition\n\n\n\n\n\n\nSummary\n\n\nSummary afasdf afasdf\n\n\n\n\n\n\nTldr\n\n\nthis is some text\n\n\n\n\n\n\nTip\n\n\nthis is some text\n\n\n\n\n\n\nImportant\n\n\nthis is some text\n\n\n\n\n\n\nHint\n\n\nthis is some text\n\n\n\n\n\n\nSuccess\n\n\nthis is some text\n\n\n\n\n\n\nCheck\n\n\nthis is some text\n\n\n\n\n\n\nDone\n\n\nthis is some text\n\n\n\n\n\n\nWarning\n\n\nthis is some text\n\n\n\n\n\n\nCaution\n\n\nthis is some text\n\n\n\n\n\n\nAttention\n\n\nthis is some text\n\n\n\n\n\n\nFailure\n\n\nthis is some text\n\n\n\n\n\n\nFail\n\n\nthis is some text\n\n\n\n\n\n\nMissing\n\n\nthis is some text\n\n\n\n\n\n\nDanger\n\n\nthis is some text\n\n\n\n\n\n\nError\n\n\nthis is some text\n\n\n\n\n\n\nBug\n\n\nthis is some text\n\n\n\n\n\n\nQuote\n\n\nthis is some text\n\n\n\n\n\n\nCite\n\n\nthis is some text\n\n\n\n\nSample To-DO list\n\n\n\n\n one\n\n\n two\n\n\n three\n\n\n four\n\n\n four - a\n\n\n four - b\n\n\n\n\n\n\n Jupiter", 
+            "title": "MkDocs Notes"
+        }, 
+        {
+            "location": "/blog/mkdocs-notes/#mkdocs-notes-for-quick-reference", 
+            "text": "", 
+            "title": "Mkdocs Notes for quick reference"
+        }, 
+        {
+            "location": "/blog/mkdocs-notes/#code-sample", 
+            "text": "1\n2\n3 class   HelloWorld   {  }     1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13 SELECT  Employees . EmployeeID ,  Employees . Name ,  Employees . Salary ,  Manager . Name   AS   Manager  FROM  Employees  LEFT   JOIN  Employees   AS   Manager  ON  Employees . ManagerID   =   Manager . EmployeeID  WHERE  Employees . EmployeeID   =   087652 ;", 
+            "title": "Code sample"
+        }, 
+        {
+            "location": "/blog/mkdocs-notes/#adding-an-image", 
+            "text": "", 
+            "title": "Adding an image"
+        }, 
+        {
+            "location": "/blog/mkdocs-notes/#adding-an-image-with-defined-size", 
+            "text": "", 
+            "title": "Adding an image With defined Size"
+        }, 
+        {
+            "location": "/blog/mkdocs-notes/#adding-an-image-with-defined-size-and-centered", 
+            "text": "", 
+            "title": "Adding an image With defined Size and Centered"
+        }, 
+        {
+            "location": "/blog/mkdocs-notes/#admonition-sample", 
+            "text": "Title  Note with Title but without quotes    Admonition   Another Admonition inside  Note with Title but without quotes     Title can be customised  Note with Title. Title can be customized for any type of Admonition    Summary  Summary afasdf afasdf    Tldr  this is some text    Tip  this is some text    Important  this is some text    Hint  this is some text    Success  this is some text    Check  this is some text    Done  this is some text    Warning  this is some text    Caution  this is some text    Attention  this is some text    Failure  this is some text    Fail  this is some text    Missing  this is some text    Danger  this is some text    Error  this is some text    Bug  this is some text    Quote  this is some text    Cite  this is some text", 
+            "title": "Admonition Sample"
+        }, 
+        {
+            "location": "/blog/mkdocs-notes/#sample-to-do-list", 
+            "text": "one   two   three   four   four - a   four - b     Jupiter", 
+            "title": "Sample To-DO list"
+        }, 
+        {
             "location": "/computer-science/data-structures/introduction/", 
             "text": "On a broader sense, the data structures can be categorized into two categories\n\n\n\n\nContiguous data structures\n\n\nThese kind of data structures are created with single stretch of memory in the heap. This includes \nArrays\n, \nHeaps\n and \nHash tables\n\n\n\n\n\n\nLinked Data structures\n\n\nThese are created with distinct chunks of memory and linked using pointers/references. \nLists\n, \nTrees\n and \nGraphs\n are few of them.", 
             "title": "Introduction"
@@ -142,13 +157,13 @@
         }, 
         {
             "location": "/computer-science/data-structures/linked-list/", 
-            "text": "Linked List\n\n\nLinked List is non-contiguous data structure created with a collection of element. Each element(generally called as \nNodes\n) essentially holds two pieces of information \n\n\n\n\ndata\n - value that is supposed to hold in the data structure \n\n\nnext\n - a pointer/reference to the next node in the list\n\n\n\n\nThis can be visualized as shown below.\n\n\n\n\nSay for example, if our linked list is to hold integers, then the data will be of type integer, for eg, 10 as shown below.\n\n\n\n\nWe can have lots of these nodes, each of them consisting of exactly \n\n\n\n\ndata (information we want to hold) and \n\n\nnext (a pointer, pointing to memory location of the next node in the list).\n\n\n\n\n\n\nAs you can see, in the above image\n\n\n\n\nNode A \npoints to\n Node B\n\n\nNode B \npoints to\n Node C\n\n\nNode C \npoints to\n Node D\n\n\n\n\nSo we got our list. To navigate through the list, we should start somewhere. By definition, we start our list using a pointer called \nhead\n which points to the first node in the list. And we exit our list when there are no further nodes. In the image below, since there are no nodes after \nNode D\n, the \nnext\n pointer points to null.\n\n\n\n\nUsing the \nhead\n pointer we got two things\n1. \nhead.data\n - data in the first node \n\n2. \nhead.next\n - a pointer to the next element in the list\n\n\n\n\nConsidering the image above, as specified earlier, \nhead\n points to \nA\n\n\n\n\nwhich implies \nhead.data = 10\n and \nhead.next = B\n\n\nwhich implies \nhead.next.data = 23\n and \nhead.next.next = C\n\n\nwhich implies \nhead.next.next.data = 17\n and \nhead.next.next.next = D\n\n\nwhich implies \nhead.next.next.next.data = 35\n and \nhead.next.next.next.next = null\n\n\n\n\nBut when using our linked list, we are not going to use the f**king \nnext.next.next.....\n notation. We will start at the head and move further using temporary pointers, rather than sitting at head and asking next.next.next... \n\n\n\n\nAttention\n\n\nAlthough in our examples we are holding integer in \ndata\n, in reality \ndata\n also is a pointer (i.e., a variable pointing to an object in the heap)\n\n\n\n\n\n\nTip\n\n\nWhen you are solving problems on linked list, have a similar sketch so that it will be easy to think about the operations\n\n\n\n\nBefore discussing further, lets write the basic skeleton of our LinkedList. And even before that lets see how a node looks like in code.\n\n\nNode.java\n\n\n\n\nWe define Node class with Generic type because in real world, the linked list may hold any type of data for eg., Integer, Person, Vehicle etc.,\n\n\nOur node has two variables\n\n\ndata - of type E\n\n\nnext - reference(pointer) to the next Node\n\n\n\n\n\n\n\n\n\n\n\nNow that, we defined a node, lets use this code to create linkedlist.\n\n\nLinkedList.java\n\n\n\n\nNode\n class will be made as an inner class of \nLinkedList\n class because we dont want others to mess up with the \ndata\n and more importantly the \nnext\n pointers. Now the only thing that can access the inner class is the methods of the outer class.\n\n\nWe will define a variable \nhead\n of type \nNode\nE\n to know the starting node of the LinkedList.\n\n\nWe will define an additional variable \ncurrentSize\n of type \nint\n to hold the size of the LinkedList. If we dont create this variable, every time we need the size of the list, we have to iterate throught each element and count the number of nodes, whose complexity is O(n) (actually theta(n), because exactly n elements to count). We can avoid this overhead by defining this variable and incrementing its value whenever a node is added or decrementing its value whenever a node is deleted. Now the complexity of this operation is O(1).\n\n\nAnd Operations like\n\n\naddFirst()\n\n\naddLast()\n\n\nremoveFirst()\n\n\nremoveLast()\n\n\nremove()\n\n\ncontains()\n\n\n\n\n\n\n\n\n\n\n\nLinkedList Operations\n\n\naddFirst\n\n\n\n\n\naddLast\n\n\nWithout tail reference\n\n\n\n\nWith tail reference\n\n\n\n\nremoveFirst\n\n\nremoveLast\n\n\nremove\n\n\ncontains", 
+            "text": "Linked List is a non-contiguous data structure created with each element pointing to next element in the list.\n\n\nNode\n\n\nEach element(generally called as \nNodes\n) essentially holds two pieces of information \n\n\n\n\ndata\n - value that is supposed to hold in the data structure \n\n\nnext\n - a pointer/reference to the next node in the list\n\n\n\n\nThis can be visualized as shown below.\n\n\n\n\nSay for example, if our linked list is to hold integers, then the data will be of type integer, for eg, 10 as shown below.\n\n\n\n\nWe can have lots of these nodes, each of them consisting of exactly \n\n\n\n\ndata (information we want to hold) and \n\n\nnext (a pointer, pointing to memory location of the next node in the list).\n\n\n\n\n\n\nAs you can see, in the above image\n\n\n\n\nNode A \npoints to\n Node B\n\n\nNode B \npoints to\n Node C\n\n\nNode C \npoints to\n Node D\n\n\n\n\nSo we got our list. To navigate through the list, we should start somewhere. By definition, we start our list using a pointer called \nhead\n which points to the first node in the list. And we exit our list when there are no further nodes. In the image below, since there are no nodes after \nNode D\n, the \nnext\n pointer points to null.\n\n\n\n\nUsing the \nhead\n pointer we got two things\n1. \nhead.data\n - data in the first node \n\n2. \nhead.next\n - a pointer to the next element in the list\n\n\n\n\nConsidering the image above, as specified earlier, \nhead\n points to \nA\n\n\n\n\nwhich implies \nhead.data = 10\n and \nhead.next = B\n\n\nwhich implies \nhead.next.data = 23\n and \nhead.next.next = C\n\n\nwhich implies \nhead.next.next.data = 17\n and \nhead.next.next.next = D\n\n\nwhich implies \nhead.next.next.next.data = 35\n and \nhead.next.next.next.next = null\n\n\n\n\nBut when using our linked list, we are not going to use the f**king \nnext.next.next.....\n notation. We will start at the head and move further using temporary pointers, rather than sitting at head and asking next.next.next... \n\n\n\n\nAttention\n\n\nAlthough in our examples we are holding integer in \ndata\n, in reality \ndata\n also is a pointer (i.e., a variable pointing to an object in the heap)\n\n\n\n\n\n\nTip\n\n\nWhen you are solving problems on linked list, have a similar sketch so that it will be easy to think about the operations\n\n\n\n\nBefore discussing further, lets write the basic skeleton of our LinkedList. And even before that lets see how a node looks like in code.\n\n\nNode.java\n\n\n\n\nWe define Node class with Generic type because in real world, the linked list may hold any type of data for eg., Integer, Person, Vehicle etc.,\n\n\nOur node has two variables\n\n\ndata - of type E\n\n\nnext - reference(pointer) to the next Node\n\n\n\n\n\n\n\n\n\n\n\nNow that, we defined a node, lets use this code to create linkedlist.\n\n\nLinkedList.java\n\n\n\n\nNode\n class will be made as an inner class of \nLinkedList\n class because we dont want others to mess up with the \ndata\n and more importantly the \nnext\n pointers. Now the only thing that can access the inner class is the methods of the outer class.\n\n\nWe will define a variable \nhead\n of type \nNode\nE\n to know the starting node of the LinkedList.\n\n\nWe will define an additional variable \ncurrentSize\n of type \nint\n to hold the size of the LinkedList. If we dont create this variable, every time we need the size of the list, we have to iterate throught each element and count the number of nodes, whose complexity is O(n) (actually theta(n), because exactly n elements to count). We can avoid this overhead by defining this variable and incrementing its value whenever a node is added or decrementing its value whenever a node is deleted. Now the complexity of this operation is O(1).\n\n\nAnd Operations like\n\n\naddFirst()\n\n\naddLast()\n\n\nremoveFirst()\n\n\nremoveLast()\n\n\nremove()\n\n\ncontains()\n\n\n\n\n\n\n\n\n\n\n\nLinkedList Operations\n\n\nWithout tail reference\n\n\naddFirst\n\n\n\n\naddLast\n\n\n\n\nremoveFirst\n\n\n\n\nremoveLast\n\n\n\n\nremove\n\n\ncontains\n\n\nWith tail reference\n\n\naddFirst\n\n\nThis is same as without tail reference\n\n\n\naddLast\n\n\n\n\nremoveFirst\n\n\n\n\nremoveLast\n\n\n\n\nremove\n\n\ncontains", 
             "title": "Linked List"
         }, 
         {
-            "location": "/computer-science/data-structures/linked-list/#linked-list", 
-            "text": "Linked List is non-contiguous data structure created with a collection of element. Each element(generally called as  Nodes ) essentially holds two pieces of information    data  - value that is supposed to hold in the data structure   next  - a pointer/reference to the next node in the list   This can be visualized as shown below.   Say for example, if our linked list is to hold integers, then the data will be of type integer, for eg, 10 as shown below.   We can have lots of these nodes, each of them consisting of exactly    data (information we want to hold) and   next (a pointer, pointing to memory location of the next node in the list).    As you can see, in the above image   Node A  points to  Node B  Node B  points to  Node C  Node C  points to  Node D   So we got our list. To navigate through the list, we should start somewhere. By definition, we start our list using a pointer called  head  which points to the first node in the list. And we exit our list when there are no further nodes. In the image below, since there are no nodes after  Node D , the  next  pointer points to null.   Using the  head  pointer we got two things\n1.  head.data  - data in the first node  \n2.  head.next  - a pointer to the next element in the list   Considering the image above, as specified earlier,  head  points to  A   which implies  head.data = 10  and  head.next = B  which implies  head.next.data = 23  and  head.next.next = C  which implies  head.next.next.data = 17  and  head.next.next.next = D  which implies  head.next.next.next.data = 35  and  head.next.next.next.next = null   But when using our linked list, we are not going to use the f**king  next.next.next.....  notation. We will start at the head and move further using temporary pointers, rather than sitting at head and asking next.next.next...    Attention  Although in our examples we are holding integer in  data , in reality  data  also is a pointer (i.e., a variable pointing to an object in the heap)    Tip  When you are solving problems on linked list, have a similar sketch so that it will be easy to think about the operations   Before discussing further, lets write the basic skeleton of our LinkedList. And even before that lets see how a node looks like in code.", 
-            "title": "Linked List"
+            "location": "/computer-science/data-structures/linked-list/#node", 
+            "text": "Each element(generally called as  Nodes ) essentially holds two pieces of information    data  - value that is supposed to hold in the data structure   next  - a pointer/reference to the next node in the list   This can be visualized as shown below.   Say for example, if our linked list is to hold integers, then the data will be of type integer, for eg, 10 as shown below.   We can have lots of these nodes, each of them consisting of exactly    data (information we want to hold) and   next (a pointer, pointing to memory location of the next node in the list).    As you can see, in the above image   Node A  points to  Node B  Node B  points to  Node C  Node C  points to  Node D   So we got our list. To navigate through the list, we should start somewhere. By definition, we start our list using a pointer called  head  which points to the first node in the list. And we exit our list when there are no further nodes. In the image below, since there are no nodes after  Node D , the  next  pointer points to null.   Using the  head  pointer we got two things\n1.  head.data  - data in the first node  \n2.  head.next  - a pointer to the next element in the list   Considering the image above, as specified earlier,  head  points to  A   which implies  head.data = 10  and  head.next = B  which implies  head.next.data = 23  and  head.next.next = C  which implies  head.next.next.data = 17  and  head.next.next.next = D  which implies  head.next.next.next.data = 35  and  head.next.next.next.next = null   But when using our linked list, we are not going to use the f**king  next.next.next.....  notation. We will start at the head and move further using temporary pointers, rather than sitting at head and asking next.next.next...    Attention  Although in our examples we are holding integer in  data , in reality  data  also is a pointer (i.e., a variable pointing to an object in the heap)    Tip  When you are solving problems on linked list, have a similar sketch so that it will be easy to think about the operations   Before discussing further, lets write the basic skeleton of our LinkedList. And even before that lets see how a node looks like in code.", 
+            "title": "Node"
         }, 
         {
             "location": "/computer-science/data-structures/linked-list/#nodejava", 
@@ -166,6 +181,11 @@
             "title": "LinkedList Operations"
         }, 
         {
+            "location": "/computer-science/data-structures/linked-list/#without-tail-reference", 
+            "text": "", 
+            "title": "Without tail reference"
+        }, 
+        {
             "location": "/computer-science/data-structures/linked-list/#addfirst", 
             "text": "", 
             "title": "addFirst"
@@ -174,16 +194,6 @@
             "location": "/computer-science/data-structures/linked-list/#addlast", 
             "text": "", 
             "title": "addLast"
-        }, 
-        {
-            "location": "/computer-science/data-structures/linked-list/#without-tail-reference", 
-            "text": "", 
-            "title": "Without tail reference"
-        }, 
-        {
-            "location": "/computer-science/data-structures/linked-list/#with-tail-reference", 
-            "text": "", 
-            "title": "With tail reference"
         }, 
         {
             "location": "/computer-science/data-structures/linked-list/#removefirst", 
@@ -206,9 +216,104 @@
             "title": "contains"
         }, 
         {
+            "location": "/computer-science/data-structures/linked-list/#with-tail-reference", 
+            "text": "", 
+            "title": "With tail reference"
+        }, 
+        {
+            "location": "/computer-science/data-structures/linked-list/#addfirst_1", 
+            "text": "This is same as without tail reference", 
+            "title": "addFirst"
+        }, 
+        {
+            "location": "/computer-science/data-structures/linked-list/#addlast_1", 
+            "text": "", 
+            "title": "addLast"
+        }, 
+        {
+            "location": "/computer-science/data-structures/linked-list/#removefirst_1", 
+            "text": "", 
+            "title": "removeFirst"
+        }, 
+        {
+            "location": "/computer-science/data-structures/linked-list/#removelast_1", 
+            "text": "", 
+            "title": "removeLast"
+        }, 
+        {
+            "location": "/computer-science/data-structures/linked-list/#remove_1", 
+            "text": "", 
+            "title": "remove"
+        }, 
+        {
+            "location": "/computer-science/data-structures/linked-list/#contains_1", 
+            "text": "", 
+            "title": "contains"
+        }, 
+        {
+            "location": "/computer-science/data-structures/stack/", 
+            "text": "", 
+            "title": "Stack"
+        }, 
+        {
+            "location": "/computer-science/data-structures/queue/", 
+            "text": "", 
+            "title": "Queue"
+        }, 
+        {
+            "location": "/computer-science/data-structures/tree/", 
+            "text": "Node of a Binary Tree\n\n\n\n\n\nBinary Tree", 
+            "title": "Tree"
+        }, 
+        {
+            "location": "/computer-science/data-structures/tree/#node-of-a-binary-tree", 
+            "text": "", 
+            "title": "Node of a Binary Tree"
+        }, 
+        {
+            "location": "/computer-science/data-structures/tree/#binary-tree", 
+            "text": "", 
+            "title": "Binary Tree"
+        }, 
+        {
+            "location": "/computer-science/data-structures/graph/", 
+            "text": "Vertex of a Graph\n\n\n\n\n\nGraph\n\n\n\n\n\nQueue\n\n\n\n\n\nStack", 
+            "title": "Graph"
+        }, 
+        {
+            "location": "/computer-science/data-structures/graph/#vertex-of-a-graph", 
+            "text": "", 
+            "title": "Vertex of a Graph"
+        }, 
+        {
+            "location": "/computer-science/data-structures/graph/#graph", 
+            "text": "", 
+            "title": "Graph"
+        }, 
+        {
+            "location": "/computer-science/data-structures/graph/#queue", 
+            "text": "", 
+            "title": "Queue"
+        }, 
+        {
+            "location": "/computer-science/data-structures/graph/#stack", 
+            "text": "", 
+            "title": "Stack"
+        }, 
+        {
             "location": "/computer-science/algorithms/sorting/bubble-sort/", 
             "text": "", 
             "title": "Bubble Sort"
+        }, 
+        {
+            "location": "/computer-science/algorithms/sorting/insertion-sort/", 
+            "text": "", 
+            "title": "Insertion Sort"
+        }, 
+        {
+            "location": "/computer-science/algorithms/sorting/quick-sort/", 
+            "text": "", 
+            "title": "Quick Sort"
         }, 
         {
             "location": "/computer-science/design-patterns/strategy-pattern/", 
@@ -219,6 +324,31 @@
             "location": "/computer-science/design-patterns/observer-pattern/", 
             "text": "", 
             "title": "Observer Pattern"
+        }, 
+        {
+            "location": "/running/running/", 
+            "text": "Chennai Wipro Marathon Jan 8, 2017\n\n\nFinishing Selfie\n\n\n\n\nMedal\n\n\n\n\nCertificate", 
+            "title": "Running"
+        }, 
+        {
+            "location": "/running/running/#chennai-wipro-marathon-jan-8-2017", 
+            "text": "", 
+            "title": "Chennai Wipro Marathon Jan 8, 2017"
+        }, 
+        {
+            "location": "/running/running/#finishing-selfie", 
+            "text": "", 
+            "title": "Finishing Selfie"
+        }, 
+        {
+            "location": "/running/running/#medal", 
+            "text": "", 
+            "title": "Medal"
+        }, 
+        {
+            "location": "/running/running/#certificate", 
+            "text": "", 
+            "title": "Certificate"
         }
     ]
 }

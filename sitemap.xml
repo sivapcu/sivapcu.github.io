@@ -23,6 +23,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>http://sivapcu.github.io/blog/mkdocs-notes/</loc>
+     <lastmod>2017-06-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
@@ -42,6 +48,16 @@
     <url>
      <loc>http://sivapcu.github.io</loc>
      <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://sivapcu.github.io/running/running/</loc>
+     <lastmod>2017-06-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
