@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Siva Sankar Rajendran", 
+            "text": "My Two Cents\n\n\n\n\nI started my career in 2010 as a junior software engineer with a very little real time experience about the industry. If it was not stackoverflow, online forums, online tutorials, free pdfs, youtube, MOOCs I would not be a developer what I am today. \n\n\nI believe this blog will be my two cents back to the community which helped me grow.\n\n\nThanks again for all those wonderful people for their contributions in open source projects and knowledge sharing.", 
             "title": "Home"
         }, 
         {
-            "location": "/#siva-sankar-rajendran", 
-            "text": "", 
-            "title": "Siva Sankar Rajendran"
+            "location": "/#my-two-cents", 
+            "text": "I started my career in 2010 as a junior software engineer with a very little real time experience about the industry. If it was not stackoverflow, online forums, online tutorials, free pdfs, youtube, MOOCs I would not be a developer what I am today.   I believe this blog will be my two cents back to the community which helped me grow.  Thanks again for all those wonderful people for their contributions in open source projects and knowledge sharing.", 
+            "title": "My Two Cents"
         }, 
         {
             "location": "/blog/online-tools/", 
