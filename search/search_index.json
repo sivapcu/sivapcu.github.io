@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "My Two Cents\n\n\n\n\nI started my career in 2010 as a junior software engineer with a very little real time experience about the industry. If it was not stackoverflow, online forums, online tutorials, free pdfs, youtube, MOOCs I would not be a developer what I am today. \n\n\nI believe this blog will be my two cents back to the community which helped me grow.\n\n\nThanks again for all those wonderful people for their contributions in open source projects and knowledge sharing.", 
+            "text": "My Two Cents\n\n\n\n\nI started my career in 2010 as a junior software engineer with a very little real time experience about the industry. If it was not online forums, tutorials, google, stackoverflow, free pdfs, youtube, MOOCs I would not be a developer what I am today. \n\n\nI believe this blog will be my two cents back to the community which helped me grow.\n\n\nThanks again for all those wonderful people for their contributions in open source projects and knowledge sharing.", 
             "title": "Home"
         }, 
         {
             "location": "/#my-two-cents", 
-            "text": "I started my career in 2010 as a junior software engineer with a very little real time experience about the industry. If it was not stackoverflow, online forums, online tutorials, free pdfs, youtube, MOOCs I would not be a developer what I am today.   I believe this blog will be my two cents back to the community which helped me grow.  Thanks again for all those wonderful people for their contributions in open source projects and knowledge sharing.", 
+            "text": "I started my career in 2010 as a junior software engineer with a very little real time experience about the industry. If it was not online forums, tutorials, google, stackoverflow, free pdfs, youtube, MOOCs I would not be a developer what I am today.   I believe this blog will be my two cents back to the community which helped me grow.  Thanks again for all those wonderful people for their contributions in open source projects and knowledge sharing.", 
             "title": "My Two Cents"
         }, 
         {
@@ -67,7 +67,7 @@
         }, 
         {
             "location": "/blog/vscode-tips/", 
-            "text": "This page contains tips related to \nVisual Studio Code\n IDE.\n\n\n\nIntegrated Terminal\n\n\nShort Cuts\n\n\n\n\nTo quickly open the terminal use the short cut \nCtrl + `\n\n\nTo open additional terminal use the short cut \nCtrl + Shift + `\n\n\n\n\nChange from powershell.exe to cmd.exe\n\n\nBefore Windows 10, the default Integrated Terminal provides cmd.exe. But in Windows 10, the default program is changed to powershell.exe. \n\n\n\n\nIf you want to change it back to cmd.exe just like me, then follow the following actions\n\n\n\n\nNavigate to File -\n Prefrences -\n Settings. This will open the \nsettings.json\n in the editor.\n\n\nSelect user settings in the editor\n\n\nAdd the following variables in the json as shown in the image below. \n    \n\"terminal.integrated.shell.windows\": \"cmd.exe\"\n\n\n\n\nNow open the terminal using the shortcut Ctrl + `\n\n\n\n\n\nProxy Settings\n\n\n\n\nNavigate to File -\n Prefrences -\n Settings. This will open the \nsettings.json\n in the editor.\n\n\nSelect user settings in the editor\n\n\n\n\nAdd the following variables in the json as shown in the image below.\n\n\n\"http.proxy\": \"http://username:password@proxyip:proxyport/\"\n\n\n\"http.proxyStrictSSL\": false", 
+            "text": "This page contains tips related to \nVisual Studio Code\n IDE.\n\n\n\nIntegrated Terminal\n\n\nShort Cuts\n\n\n\n\nTo perform a search throughout the project, use the short cut \nCtrl + p\n\n\nTo quickly open the terminal use the short cut \nCtrl + `\n\n\nTo open additional terminal use the short cut \nCtrl + Shift + `\n\n\n\n\nWorking with Multiple Projects in Same Window\n\n\nMany of the times, we want to work on multiple projects or we want to refer to refer to an existing project. But when we use \nFile -\n Open Folder...\n the existing project is replaced with the newly selected folder in the VS Code window. Else we have use \nFile -\n New Window\n to open new window and open the other project in that window. To avoid this and work on multiple projects in the same window use the option \nFile -\n Add Folder to Workspace...\n \n\n\nChange from powershell.exe to cmd.exe\n\n\nBefore Windows 10, the default Integrated Terminal provides cmd.exe. But in Windows 10, the default program is changed to powershell.exe. \n\n\n\n\nIf you want to change it back to cmd.exe just like me, then follow the following actions\n\n\n\n\nNavigate to \nFile -\n Prefrences -\n Settings.\n This will open the \nsettings.json\n in the editor.\n\n\nSelect user settings in the editor\n\n\nAdd the following variables in the json as shown in the image below. \n    \n\"terminal.integrated.shell.windows\": \"cmd.exe\"\n\n\n\n\nNow open the terminal using the shortcut Ctrl + `\n\n\n\n\n\nProxy Settings\n\n\n\n\nNavigate to File -\n Prefrences -\n Settings. This will open the \nsettings.json\n in the editor.\n\n\nSelect user settings in the editor\n\n\n\n\nAdd the following variables in the json as shown in the image below.\n\n\n\"http.proxy\": \"http://username:password@proxyip:proxyport/\"\n\n\n\"http.proxyStrictSSL\": false", 
             "title": "VS Code Tips"
         }, 
         {
@@ -77,12 +77,17 @@
         }, 
         {
             "location": "/blog/vscode-tips/#short-cuts", 
-            "text": "To quickly open the terminal use the short cut  Ctrl + `  To open additional terminal use the short cut  Ctrl + Shift + `", 
+            "text": "To perform a search throughout the project, use the short cut  Ctrl + p  To quickly open the terminal use the short cut  Ctrl + `  To open additional terminal use the short cut  Ctrl + Shift + `", 
             "title": "Short Cuts"
         }, 
         {
+            "location": "/blog/vscode-tips/#working-with-multiple-projects-in-same-window", 
+            "text": "Many of the times, we want to work on multiple projects or we want to refer to refer to an existing project. But when we use  File -  Open Folder...  the existing project is replaced with the newly selected folder in the VS Code window. Else we have use  File -  New Window  to open new window and open the other project in that window. To avoid this and work on multiple projects in the same window use the option  File -  Add Folder to Workspace...", 
+            "title": "Working with Multiple Projects in Same Window"
+        }, 
+        {
             "location": "/blog/vscode-tips/#change-from-powershellexe-to-cmdexe", 
-            "text": "Before Windows 10, the default Integrated Terminal provides cmd.exe. But in Windows 10, the default program is changed to powershell.exe.    If you want to change it back to cmd.exe just like me, then follow the following actions   Navigate to File -  Prefrences -  Settings. This will open the  settings.json  in the editor.  Select user settings in the editor  Add the following variables in the json as shown in the image below. \n     \"terminal.integrated.shell.windows\": \"cmd.exe\"   Now open the terminal using the shortcut Ctrl + `", 
+            "text": "Before Windows 10, the default Integrated Terminal provides cmd.exe. But in Windows 10, the default program is changed to powershell.exe.    If you want to change it back to cmd.exe just like me, then follow the following actions   Navigate to  File -  Prefrences -  Settings.  This will open the  settings.json  in the editor.  Select user settings in the editor  Add the following variables in the json as shown in the image below. \n     \"terminal.integrated.shell.windows\": \"cmd.exe\"   Now open the terminal using the shortcut Ctrl + `", 
             "title": "Change from powershell.exe to cmd.exe"
         }, 
         {
